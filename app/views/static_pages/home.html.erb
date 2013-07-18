@@ -1,0 +1,14 @@
+<div class="row-fluid">
+	
+	<div class="center">
+		
+		<h1>Bienvenue</h1>
+		
+		<%= form_tag root_path do %>
+			<%= text_field_tag :sentence, nil, placeholder: "Votre phrase" %><br />
+			<%= submit_tag "Envoyer", class: "btn btn-large btn-primary" %>
+		<% end %>
+		
+	</div>
+	
+</div>
