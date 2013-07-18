@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-U87Rails4::Application.config.secret_key_base = '2e15f6d9066b616798e7a1ee7a7a50e7582cbfe86ceddd0ba66b2ab44db2aef3860dc84ffd3beef8a2b4679950d3443dc8439aebe87aad2f9d02edc4ffa64deb'
+U87::Application.config.secret_key_base = '2e15f6d9066b616798e7a1ee7a7a50e7582cbfe86ceddd0ba66b2ab44db2aef3860dc84ffd3beef8a2b4679950d3443dc8439aebe87aad2f9d02edc4ffa64deb'

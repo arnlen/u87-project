@@ -1,4 +1,4 @@
-U87Rails4::Application.routes.draw do
+U87::Application.routes.draw do
     
   root 'static_pages#home'
 
