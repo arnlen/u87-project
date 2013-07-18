@@ -44,6 +44,6 @@ end
 group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
-  gem 'spork'
+  gem 'spork-rails', :github => 'sporkrb/spork-rails'
   gem 'launchy'
 end
